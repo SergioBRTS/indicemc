@@ -36,11 +36,10 @@ if (isset($_POST['caja'])) {
                                     echo("
                                     <input type='number' name='valor<?php $i ?>' class='form-control'>
                                     <small id='number' class='form-text text-muted'>Radio </small>");
-                                    $resu=$_POST['valor'.$i];
+                                    
 
-                                    $sum=$resu + $resu;
-                                    echo $sum;
                                 }
+                                $resu=$_POST['valor'.$i];
                                
                             } ?>
                             
